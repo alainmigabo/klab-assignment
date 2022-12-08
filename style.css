@@ -1,0 +1,139 @@
+body{
+    background-color: #1E1448;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.head{
+    border: none;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    color: white;
+}
+.name{
+    border: none;
+    height: 100%;
+    width: 30%;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 17px;
+}
+.navigationbar{
+    border: none;
+    height: 100%;
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+.socialicons{
+    border: none;
+    height: 100%;
+    width: 22%;
+    font-size: 30px;
+    margin-left: 8px;
+}
+.separationbar{
+    border: 1px solid;
+    height: 40%;
+    width: 0px;
+    margin-top: 28px;
+    color: black;
+}
+.home{
+    border: none;
+    height: 100%;
+    width: 16%;
+    margin-top: 25px;
+}
+.about{
+    border: none;
+    height: 100%;
+    width: 16%;
+    margin-top: 25px;   
+}
+.services{
+    border: none;
+    height: 100%;
+    width: 16%;   
+    margin-top: 25px;
+}
+.portifolio{
+    border: none;
+    height: 100%;
+    width: 20%;   
+    margin-top: 25px;
+}
+.blog{
+    border: none;
+    height: 100%;
+    width: 16%;   
+    margin-top: 25px;
+}
+.contact{
+    border: none;
+    height: 100%;
+    width: 16%;   
+    margin-top: 25px;
+}
+.underheader{
+    border: none;
+    height: 270px;
+    width: 100%;
+    padding-top: 30px;
+    display: flex;
+}
+.bignames{
+    margin-top: 60px;
+    padding-left: 100px;
+    width: 50%;
+}
+.photo{
+    border: none;
+    height: 100%;
+    width: 20%;
+    background-image: url("pic.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+.hiremebutton{
+    border: none;
+    width: 30%;
+    height: 16%;
+    margin-top: 20px;
+    background-color: aqua;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 100px;
+    border-radius: 20px;
+}
+.belowsection{
+    border: none;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.belowboxes{
+    border: none;
+    height: 100%;
+    width: 20%;
+    background-color: #3A2B71;
+    border-radius: 20px;
+    color: white;
+}
+.iconsection{
+    border: none;
+    height: 90px;
+    width: 94%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-left: 6%;
+}
+.belowboxes p{
+    color: #A8818E;
+}
