@@ -137,3 +137,9 @@ body{
 .belowboxes p{
     color: #A8818E;
 }
+.lowersection{
+    border: none;
+    height: 160px;
+    width: 90%;
+    padding-left: 4%;
+}
