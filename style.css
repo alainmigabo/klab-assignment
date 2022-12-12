@@ -271,3 +271,51 @@ main{
     padding: 10px;
     border-radius: 50px;
 }
+.closingabout{
+    border: none;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    padding-left: 8%;
+    padding-right: 8%;
+    justify-content: space-evenly;
+}
+.closingaboutboxes{
+    border: none;
+    height: 160px;
+    width: 20%;
+    background-color: #3A2B71;
+    margin-top: 200px;
+    border-radius: 10px;
+}
+.nums{
+    border: none;
+    height: 80px;
+    width: fit-content;
+    font-size: 50px;
+    font-weight: 700;
+    color: #00C0FF;
+    margin-top: 40px;
+    float: left;
+    margin-left: 8%;
+}
+.words{
+    border: none;
+    height: 80px;
+    width: 40%;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    float: left;
+    margin-top: 50px;
+    margin-left: 8%;
+}
+.skillsstart{
+    border: none;
+    height: fit-content;
+    width: 100%;
+    color: #00C0FF;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
