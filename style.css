@@ -21,7 +21,7 @@ header{
     width: 100%;
 }
 .separationbar{
-    border: 1px solid #A8818E;
+    border: 1px solid rgb(189, 187, 187);
     height: 15px;
     width: 0%;
 }
@@ -130,6 +130,10 @@ main{
     padding-left: 8%;
     padding-right: 8%;
 }
+.lowersection p{
+    margin-right: 14px;
+    color: rgb(189, 187, 187);
+}
 .aboutme{
     border: none;
     height: fit-content;
@@ -138,4 +142,132 @@ main{
     color: #00C0FF;
     font-size: 24px;
     font-weight: 600;
+}
+.passionateme{
+    border: none;
+    height: fit-content;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+.aboutleft{
+    border: none;
+    height: 400px;
+    width: 45%;
+    color: white;
+    margin-top: 40px;
+    display: flex;
+}
+.aboutright{
+    border: none;
+    height: 400px;
+    width: 55%;
+    margin-top: 40px;
+}
+.pic{
+    border: none;
+    height: 360px;
+    width: 40%;
+    background-image: url("pic1.jpg");
+    background-position-y: top;
+    background-size: cover;
+    margin-top: 40px;
+    margin-left: 9%;
+    border-radius: 20px;
+}
+.coffeewithpc{
+    border: none;
+    height: 160px;
+    width: 12%;
+    background-image: url("coffeewithpc.jpeg");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 1440px;
+    left: 190px;
+    border-radius: 20px;
+}
+.medal{
+    border: none;
+    height: 16%;
+    width: 11%;
+    background: url("medal.svg");
+    background-color: #00C0FF;
+    margin-top: 80px;
+    margin-left: 33%;
+    border-radius: 10px;
+}
+.before12{
+    border: 4px solid #00C0FF;
+    height: 38px;
+    width: 0%;
+    margin-left: 28%;
+    margin-top: 14px;
+}
+.success1{
+    border: none;
+    color: white;
+    height: fit-content;
+    width: fit-content;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 2px;
+    margin-top: 7px;
+}
+.success2{
+    border: none;
+    height: fit-content;
+    width: 6%;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    margin-left: 2px;
+    margin-top: 8px;
+}
+.address1{
+    border: 2px solid rgb(147, 129, 129);
+    border-right: 1px solid rgb(147, 129, 129);
+    height: 250px;
+    width: 45%;
+    background-color: #1e1448;
+    float: left;
+    color: white;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.address2{
+    border: 2px solid rgb(147, 129, 129);
+    border-left: 1px solid rgb(147, 129, 129);
+    height: 250px;
+    width: 45%;
+    background-color: #1e1448;
+    float: left;
+    color: white;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.inneraddress{
+    border: none;
+    height: 80%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.innerheads{
+    font-weight: 500;
+}
+.cvbutton{
+    border: none;
+    height: fit-content;
+    width: 16%;
+    background-color: #00C0FF;
+    margin-left: 10%;
+    margin-top: 40px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
 }
