@@ -150,7 +150,7 @@ main{
     color: white;
     text-align: center;
     font-size: 40px;
-    font-weight: 600;
+    font-weight: 700;
 }
 .aboutleft{
     border: none;
@@ -310,7 +310,7 @@ main{
     margin-top: 50px;
     margin-left: 8%;
 }
-.skillsstart{
+.start{
     border: none;
     height: fit-content;
     width: 100%;
@@ -318,4 +318,168 @@ main{
     font-size: 24px;
     font-weight: 600;
     text-align: center;
+}
+.languagesbox{
+    border: none;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.languagebox{
+    border: none;
+    height: 90px;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.innerlanguagescontainerleft{
+    border: none;
+    height: 100%;
+    width: 70%;
+    margin-left: 20%;
+}
+.languagename{
+    border: none;
+    height: fit-content;
+    width: fit-content;
+    color: white;
+    float: left;
+}
+.percentagehtml{
+    border: none;
+    height: fit-content;
+    width: fit-content;
+    color: #00C0FF;
+    float: left;
+    margin-left: 77%;
+}
+.variationcontainer{
+    border: none;
+    height: 8px;
+    width: 100%;
+    background-color: white;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+.variationhtml{
+    border: none;
+    height: 100%;
+    width: 95%;
+    background-color: #00C0FF;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.innerlanguagescontainerright{
+    border: none;
+    height: 100%;
+    width: 70%;
+    margin-left: 10%;
+}
+.percentageReact{
+    border: none;
+    height: fit-content;
+    width: fit-content;
+    color: #00C0FF;
+    float: left;
+    margin-left: 53%;
+}
+.variationReact{
+    border: none;
+    height: 100%;
+    width: 70%;
+    background-color: #00C0FF;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.percentagecss{
+    border: none;
+    height: fit-content;
+    width: fit-content;
+    color: #00C0FF;
+    float: left;
+    margin-left: 61%;
+}
+.variationcss{
+    border: none;
+    height: 100%;
+    width: 75%;
+    background-color: #00C0FF;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.percentagevue{
+    border: none;
+    height: fit-content;
+    width: fit-content;
+    color: #00C0FF;
+    float: left;
+    margin-left: 66%;
+}
+.variationvue{
+    border: none;
+    height: 100%;
+    width: 80%;
+    background-color: #00C0FF;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.percentagejs{
+    border: none;
+    height: fit-content;
+    width: fit-content;
+    color: #00C0FF;
+    float: left;
+    margin-left: 66%;
+}
+.variationjs{
+    border: none;
+    height: 100%;
+    width: 90%;
+    background-color: #00C0FF;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.percentagephp{
+    border: none;
+    height: fit-content;
+    width: fit-content;
+    color: #00C0FF;
+    float: left;
+    margin-left: 76%;
+}
+.variationphp{
+    border: none;
+    height: 100%;
+    width: 90%;
+    background-color: #00C0FF;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.serviceboxes{
+    border: none;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    margin-top: 60px;
+    justify-content: space-around;
+    padding-left: 12%;
+    padding-right: 10%;
+}
+.servicebox{
+    border: none;
+    height: 300px;
+    width: 30%;
+    background-color: #3A2B71;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.serviceboxup{
+    border: none;
+    height: 50%;
+    width: 100%;
+    background-color: black;
+
 }
