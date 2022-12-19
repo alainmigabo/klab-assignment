@@ -7,6 +7,7 @@
     <title>Mishal Portifolio</title>
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 </head>
 <body>
     <header>
@@ -15,12 +16,12 @@
         </div>
         <nav>
             <ul>
-                <a href="" style="color: #00C0FF;"><li>Home</li></a>
-                <a href=""><li>About</li></a>
-                <a href=""><li>Services</li></a>
-                <a href=""><li>Portifolio</li></a>
-                <a href=""><li>Blog</li></a>
-                <a href=""><li>Contact</li></a>
+                <a href="#headercover" style="color: #00C0FF;" id="homebutton" onclick="changecolorup(this)"><li>Home</li></a>
+                <a href="#aboutme" id="aboutbutton" style="color: white;" onclick="changecolorup(this)"><li>About</li></a>
+                <a href="#services" id="servicebutton" style="color: white;" onclick="changecolorup(this)"><li>Services</li></a>
+                <a href="#portifolio" id="portifoliobutton" style="color: white;" onclick="changecolorup(this)"><li>Portifolio</li></a>
+                <a href="#blog" id="blogbutton" style="color: white;" onclick="changecolorup(this)"><li>Blog</li></a>
+                <a href="#contact" id="contactbutton" style="color: white;" onclick="changecolorup(this)"><li>Contact</li></a>
             </ul>
         </nav>
         <div class="separationbar">
@@ -36,14 +37,14 @@
         </div>
     </header>
     <main>
-        <div class="headercover">
+        <div id="headercover">
             
         </div>
         <div class="left">
             <span class="bigname">Migabo <span style="color: #00C0FF;">Ishimwe</span> Alain</span>
             <span style="margin-left: 98px; font-size: 26px;font-weight: 500;">Web Developer based in kigali, Rwanda</span>
             <a href="" style="text-decoration: none;color:white;"><div class="hirebutton">
-                Hire Me
+                <button style="border: none;background-color:transparent;color:white;font-size: 18px;font-weight: 600;" onclick="pagereloadprevention()">Hire Me</button>
             </div></a>
         </div>
         <div class="right">
@@ -80,7 +81,7 @@
                 </div>
             </div>
         </div>
-        <div class="aboutme">
+        <div id="aboutme">
             About Me
         </div>
         <div class="passionateme">
@@ -99,7 +100,7 @@
         </div>
         <div class="aboutright" style="color: rgb(180, 172, 172);">
             <h2 style="color: white;margin-left: 20px;">ABOUT ME</h2>
-            <p style="margin-right: 60px;">Web designer and developer experienced in analysing and demonstrating what a user need through talks Web designer and developer experienced in analysing and demonstrating what a user need through talks</p>
+            <p style="margin-right: 100px;">I am a creative Web and software developer with experience of 1 year working with the highly appreciated lab which makes me aware of whatever a client needs whenever we Interact with each other </p>
             <div class="address1">
                 <div class="inneraddress">
                     <div class="innerheads" style="margin-top: 10px;">Name</div>
@@ -133,7 +134,7 @@
             Training Years
         </div>
         <div class="cvbutton">
-            <a href=""><button style="border: none;background-color:#00C0FF;color: white;font-size: 16px;font-weight: 400;">Download CV</button></a>
+            <a href="" onclick="pagereloadprevention()"><button style="border: none;background-color:#00C0FF;color: white;font-size: 16px;font-weight: 400;">Download CV</button></a>
         </div>
         <div class="closingabout">
             <div class="closingaboutboxes">
@@ -176,6 +177,7 @@
             <span>I Work Hard to Improve My Skills</span><br> Reguraly
         </div>
         <div class="languagesbox">
+            
             <div class="languagebox" style="margin-top: 80px;">
                 <div class="innerlanguagescontainerleft">
                     <div class="languagename">
@@ -267,12 +269,249 @@
                 </div>
             </div>
         </div>
-        <div class="start" style="margin-top: 100px;">
+        <div class="start" style="margin-top: 100px;" id="services">
             Services
         </div>
         <div class="passionateme">
             What I Do For My Clients
         </div>
+        <div class="serviceboxes">
+            <div class="servicebox">
+                <div class="serviceboxup">
+                    <div class="boxicon">
+                        <i class='bx bx-desktop'></i>
+                    </div>
+                    <div class="boxiconcontainer">
+
+                    </div>
+                </div>
+                <div class="serviceboxdown">
+                    <h3>Web Designing</h3>
+                    <p>I'm a certified Web designer and developer with an experience of 1 year in action</p>
+                </div>
+            </div>
+            <div class="servicebox">
+                <div class="serviceboxup">
+                    <div class="graphicboxicon" id="graphicdesign">
+                        
+                    </div>
+                    <div class="boxiconcontainer">
+                        
+                    </div>
+                </div>
+                <div class="serviceboxdown">
+                    <h3>Graphic Design</h3>
+                    <p>I have the graphic designing skills that I've been using for 3 months</p>
+                </div>
+            </div>
+            <div class="servicebox">
+                <div class="serviceboxup">
+                    <div class="boxicon">
+                        <i class='bx bx-bar-chart-alt'></i>
+                    </div>
+                    <div class="boxiconcontainer">
+                        
+                    </div>
+                </div>
+                <div class="serviceboxdown">
+                    <h3>Digital Management</h3>
+                    <p>I provide management of social medias and website coordination service</p>
+                </div>
+            </div>
+            <div class="servicebox">
+                <div class="serviceboxup">
+                    <div class="boxicon">
+                        <i class='bx bx-target-lock' ></i>
+                    </div>
+                    <div class="boxiconcontainer">
+                        
+                    </div>
+                </div>
+                <div class="serviceboxdown">
+                    <h3>Photography</h3>
+                    <p>I do photography mostly for the ones I'm designing their websites</p>
+                </div>
+            </div>
+            <div class="servicebox">
+                <div class="serviceboxup">
+                    <div class="boxicon">
+                        <i class="uil uil-comment-lines"></i>
+                    </div>
+                    <div class="boxiconcontainer">
+                        
+                    </div>
+                </div>
+                <div class="serviceboxdown">
+                    <h3>Consultancy</h3>
+                    <p>I provide advices to my clients regarding their career sectors mostly in the tech industry</p>
+                </div>
+            </div>
+            <div class="servicebox">
+                <div class="serviceboxup">
+                    <div class="boxicon">
+                        <i class='bx bx-code-alt' ></i>
+                    </div>
+                    <div class="boxiconcontainer">
+                        
+                    </div>
+                </div>
+                <div class="serviceboxdown">
+                    <h3>Software Development</h3>
+                    <p>I do software development in either desktop and embedded systems</p>
+                </div>
+            </div>
+        </div>
+        <div class="start" style="margin-top: 100px;">Resume</div>
+        <div class="passionateme">I Worked For Some Big<br> Companies</div>
+        <div class="experience">
+            Experience
+        </div>
+        <div class="education">
+            Education
+        </div>
+        <div class="workcontainer">
+            <div class="work">
+                <div class="symbolholder" id="leftsymbol">
+                    <div class="symbol">
+                        <i class='bx bxs-briefcase' style="margin-top: 14px;"></i>
+                    </div>
+                    <div class="line">
+
+                    </div>
+                </div>
+                <div class="wordsholder">
+                    <span style="font-size: 24px;font-weight: 700;color: white;">UI/UX Designer</span> <span style="color: rgb(189, 187, 187);">(2022 - 2022)</span>
+                    <div style="margin-top: 10px;color:white;font-size: 18px;font-weight: 700;">My Portifolio</div>
+                    <div style="color: rgb(189, 187, 187);margin-top: 20px;">I have not worked proffessionally as a UI/UX designer but I have designed my portifolio</div>
+                </div>
+            </div>
+            <div class="work">
+                <div class="symbolholder" id="rightsymbol">
+                    <div class="symbol">
+                        <i class='bx bxs-graduation' style="margin-top: 14px;"></i>
+                    </div>
+                    <div class="line">
+                        
+                    </div>
+                </div>
+                <div class="wordsholder">
+                    <span style="font-size: 24px;font-weight: 700;color: white;">Trainings</span> <span style="color: rgb(189, 187, 187);">(2022 - 2022)</span>
+                    <div style="margin-top: 10px;color:white;font-size: 18px;font-weight: 700;">I4G&ZURI Trainings</div>
+                    <div style="color: rgb(189, 187, 187);margin-top: 20px;">I graduated in Ingressive for good and zuri trainings cohort 2</div>
+                </div>
+            </div>
+            <div class="work">
+                <div class="symbolholder" id="leftsymbol">
+                    <div class="symbol">
+                        <i class='bx bxs-briefcase' style="margin-top: 14px;"></i>
+                    </div>
+                    <div class="line">
+                        
+                    </div>
+                </div>
+                <div class="wordsholder">
+                    <span style="font-size: 24px;font-weight: 700;color: white;">Web designer</span> <span style="color: rgb(189, 187, 187);">(2022 - 2022)</span>
+                    <div style="margin-top: 10px;color:white;font-size: 18px;font-weight: 700;">My Portifolio</div>
+                    <div style="color: rgb(189, 187, 187);margin-top: 20px;">I haven't worked proffessionaly in web designing but this portifolio may demonstrate What I can do</div>
+                </div>
+            </div>
+            <div class="work">
+                <div class="symbolholder" id="rightsymbol">
+                    <div class="symbol">
+                        <i class='bx bxs-graduation' style="margin-top: 14px;"></i>
+                    </div>
+                    <div class="line">
+                        
+                    </div>
+                </div>
+                <div class="wordsholder">
+                    <span style="font-size: 24px;font-weight: 700;color: white;">High School</span> <span style="color: rgb(189, 187, 187);">(2019 - 2022)</span>
+                    <div style="margin-top: 10px;color:white;font-size: 18px;font-weight: 700;">GSRR</div>
+                    <div style="color: rgb(189, 187, 187);margin-top: 20px;">I graduated my high school in Groupe scolaire Remera Rukoma in MPC Combination</div>
+                </div>
+            </div>
+            <div class="work">
+                <div class="symbolholder" id="leftsymbol">
+                    <div class="symbol">
+                        <i class='bx bxs-briefcase' style="margin-top: 14px;"></i>
+                    </div>
+                    <div class="line">
+                        
+                    </div>
+                </div>
+                <div class="wordsholder">
+                    <span style="font-size: 24px;font-weight: 700;color: white;">Software Development</span> <span style="color: rgb(189, 187, 187);">(2021 - 2022)</span>
+                    <div style="margin-top: 10px;color:white;font-size: 18px;font-weight: 700;">GSRR</div>
+                    <div style="color: rgb(189, 187, 187);margin-top: 20px;">I Collaborated with my colleagues to work on our school's database</div>
+                </div>
+            </div>
+            <div class="work">
+                <div class="symbolholder" id="rightsymbol">
+                    <div class="symbol">
+                        <i class='bx bxs-graduation' style="margin-top: 14px;"></i>
+                    </div>
+                    <div class="line">
+                        
+                    </div>
+                </div>
+                <div class="wordsholder">
+                    <span style="font-size: 24px;font-weight: 700;color: white;">Ordinary level</span> <span style="color: rgb(189, 187, 187);">(2016 - 2018)</span>
+                    <div style="margin-top: 10px;color:white;font-size: 18px;font-weight: 700;">CSEG</div>
+                    <div style="color: rgb(189, 187, 187);margin-top: 20px;">I covered my ordinary level in centre scolaire Elena Guerra</div>
+                </div>
+            </div>
+        </div>
+        <div class="start" id="portifolio">Portifolio</div>
+        <div class="passionateme">What I Do for My Clients</div>
+        <div class="navlike">
+            <ul>
+                <a href="" id="all" onclick="pagereloadprevention();changecolordown(this)" style="color: #00C0FF;"><li>All</li></a>
+                <a href="" id="youtube" onclick="pagereloadprevention();changecolordown(this)" style="color: white;"><li>Youtube</li></a>
+                <a href="" id="vimeo" onclick="pagereloadprevention();changecolordown(this)" style="color: white;"><li>Vimeo</li></a>
+                <a href="" id="soundcloud" onclick="pagereloadprevention();changecolordown(this)" style="color: white;"><li>Soundcloud</li></a>
+                <a href="" id="popup" onclick="pagereloadprevention();changecolordown(this)" style="color: white;"><li>Popup</li></a>
+                <a href="" id="content" onclick="pagereloadprevention();changecolordown(this)" style="color: white;"><li>Content</li></a>
+            </ul>
+        </div>
+        <div class="portifolioboxesholder">
+            <div id="portifoliobox1" onmouseover="activate1()" onmouseout="disactivate()">
+                <div id="hiddenpart1" style="visibility: hidden;">
+                    
+                </div>
+            </div>
+            <div class="portifoliobox2" onmouseover="activate()" onmouseout="disactivate()">
+                <div id="hiddenpart2" style="visibility: hidden;">
+                    
+                </div>
+            </div>
+            <div class="portifoliobox3" onmouseover="activate()" onmouseout="disactivate()">
+                <div id="hiddenpart3" style="visibility: hidden;">
+                    
+                </div>
+            </div>
+            <div class="portifoliobox4" onmouseover="activate()" onmouseout="disactivate()">
+                <div id="hiddenpart4" style="visibility: hidden;">
+                    
+                </div>
+            </div>
+            <div class="portifoliobox6" onmouseover="activate()" onmouseout="disactivate()">
+                <div id="hiddenpart6" style="visibility: hidden;">
+                    
+                </div>
+            </div>
+            <div class="portifoliobox7" onmouseover="activate()" onmouseout="disactivate()">
+                <div id="hiddenpart7" style="visibility: hidden;">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="start" style="margin-top: 160px;">Testimonials</div>
+        <div class="passionateme">What Clients Say</div>
+        <div class="quote"><i class='bx bxs-quote-left'></i></div>
+        <div class="commentsection">
+            
+        </div>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
