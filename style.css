@@ -274,13 +274,18 @@ main{
 .cvbutton{
     border: none;
     height: fit-content;
-    width: 16%;
+    width: fit-content;
     background-color: #00C0FF;
     margin-left: 10%;
     margin-top: 40px;
-    text-align: center;
-    padding: 10px;
+    padding: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
     border-radius: 50px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
 }
 .closingabout{
     border: none;
@@ -484,7 +489,7 @@ main{
 }
 .servicebox{
     border: none;
-    height: 300px;
+    height: 340px;
     width: 30%;
     background-color: #3A2B71;
     margin-bottom: 20px;
@@ -532,7 +537,7 @@ main{
 }
 .serviceboxdown{
     border: none;
-    height: 150px;
+    height: 190px;
     width: 88%;
     background-color: transparent;
     margin-left: 6%;
@@ -739,4 +744,257 @@ a{
     font-size: 120px;
     margin-top: 40px;
     color: #00C0FF;
+}
+.comments{
+    border: none;
+    height: fit-content;
+    width: 100%;
+    padding-left: 12%;
+    padding-right: 12%;
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+.commenteraddress{
+    border: none;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.commenterpic{
+    border: none;
+    height: 60px;
+    width: 60px;
+    background-image: url("commenter.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    margin-top: 6px;
+}
+.restaddress{
+    border: none;
+    height: fit-content;
+    width: fit-content;
+    margin-left: 20px;
+}
+.dotsection{
+    border: none;
+    height: 100px;
+    width: 60%;
+    margin-top: 40px;
+}
+.downlanguagesbox{
+    border: none;
+    height: 200px;
+    width: 80%;
+    background-color: #432D92;
+    margin-left: 10%;
+    border-radius: 20px;
+}
+#blog{
+    margin-top: 60px;
+    padding-top: 100px;
+}
+.blogboxes{
+    border: none;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 60px;
+}
+.blogbox{
+    border: none;
+    height: 370px;
+    width: 30%;
+    background-color: #432D92;
+    border-radius: 16px;
+}
+.blogpic{
+    border: none;
+    height: 200px;
+    width: 100%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    background-position: center;
+    background-size: cover;
+}
+#music{
+    background-image: url("music.jpg");
+}
+#designer{
+    background-image: url("designer.jpg");
+}
+#team{
+    background-image: url("team.jpg");
+}
+.blogdownsection{
+    height: fit-content;
+    width: 80%;
+    margin-left: 10%;
+}
+#contact{
+    padding-top: 100px;
+    margin-top: 60px;
+}
+.contactsections{
+    border: none;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.contactleftsection{
+    border: none;
+    height: fit-content;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contactcombination{
+    border: none;
+    height: 100px;
+    width: 50%;
+    margin-left: 26%;
+    color: white;
+    display: flex;
+    margin-top: 20px;
+}
+.contactsymbol{
+    border: none;
+    height: 100px;
+    width: 28%;
+    background-color: #00C0FF;
+    border-radius: 50%;
+    font-size: 40px;
+    text-align: center;
+}
+.contactrightsection{
+    border: none;
+    height: fit-content;
+    width: 50%;
+}
+#formname{
+    border: 1px solid rgb(151, 148, 148);
+    height: 60px;
+    width: calc(40% - 2px);
+    background-color: transparent;
+    margin-top: 34px;
+    border-radius: 10px;
+}
+#formemail{
+    border: 1px solid rgb(151, 148, 148);
+    height: 60px;
+    width: calc(40% - 2px);
+    background-color: transparent;
+    margin-top: 34px;
+    border-radius: 10px;
+    margin-left: 3%;
+}
+#formphone{
+    border: 1px solid rgb(151, 148, 148);
+    height: 60px;
+    width: calc(40% - 2px);
+    background-color: transparent;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+#formsubject{
+    border: 1px solid rgb(151, 148, 148);
+    height: 60px;
+    width: calc(40% - 2px);
+    background-color: transparent;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: 3%;
+}
+#formmessage{
+    border: 1px solid rgb(151, 148, 148);
+    height: 200px;
+    width: calc(84% - 2px);
+    background-color: transparent;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+form ::placeholder{
+    text-align: center;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.submitnowbutton{
+    border: none;
+    height: fit-content;
+    width: fit-content;
+    background-color: #00C0FF;
+    cursor: pointer;
+    padding: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 60px;
+    margin-top: 16px;
+    color: white;
+    font-weight: 500;
+}
+.contactlowersection{
+    border: none;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.lastdownpart{
+    border: none;
+    height: 300px;
+    width: 80%;
+    background-color: #432D92;
+    margin-left: 10%;
+    margin-top: 220px;
+    border-radius: 20px;
+    display: flex;
+}
+.leftlastpart{
+    border: none;
+    height: 100%;
+    width: 50%;
+}
+.rightlastpart{
+    border: none;
+    height: 80px;
+    width: 40%;
+    background-color: white;
+    border-radius: 14px;
+    margin-top: 110px;
+    display: flex;
+}
+.rightlastpart input{
+    border: none;
+    border-style: none;
+    height: 97%;
+    width: 70%;
+    border-bottom-left-radius: 14px;
+    border-top-left-radius: 14px;
+}
+.rightlastpart ::placeholder{
+    text-align: center;
+    font-size: 18px;
+}
+.sendnowbutton{
+    border: none;
+    height: fit-content;
+    width: 30%;
+    background-color: #00C0FF;
+    cursor: pointer;
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+    color: white;
+    font-weight: 500;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    text-align: center;
 }

@@ -25,3 +25,5 @@ function activate1(){
 function disactivate(activated){
     document.getElementById("hiddenpart").style.visibility = "hidden";
 }
+let a = document.getElemntById("formemail").placeholder.style.value;
+console.log(a);
