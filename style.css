@@ -1022,7 +1022,7 @@ form ::placeholder{
     padding-bottom: 28px;
     text-align: center;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 390px) {
     .separationbar{
         display: none;
     }
