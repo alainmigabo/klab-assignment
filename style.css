@@ -1272,5 +1272,26 @@ form ::placeholder{
         width: 100%;
         margin-left: 3%;
         margin-right: 3%;
-    }    
+    }
+    .serviceboxes{
+        height: fit-content;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 60px;
+        justify-content: center;
+        padding: 0;
+    }
+    .servicebox{
+        height: 340px;
+        width: 94%;
+        background-color: #3A2B71;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 3%;
+    }
+    
 }
