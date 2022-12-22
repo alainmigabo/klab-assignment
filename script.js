@@ -27,3 +27,13 @@ function disactivate(activated){
 }
 let a = document.getElemntById("formemail").placeholder.style.value;
 console.log(a);
+function revealhiddenmenu() {
+    document.getElementById("hiddenmenu").style.display = "flex";
+    document.getElementById("bars").style.display = "none";
+    document.getElementById("cancel").style.display = "flex";
+}
+function hidemenu() {
+    document.getElementById("hiddenmenu").style.display = "none";
+    document.getElementById("cancel").style.display = "none";
+    document.getElementById("bars").style.display = "flex";
+}

@@ -12,7 +12,7 @@
 <body>
     <header>
         <div class="logo">
-            M<span style="color: #00C0FF;">ish</span>al
+            <a href="#headercover">M<span style="color: #00C0FF;">ish</span>al</a>
         </div>
         <nav>
             <ul>
@@ -35,11 +35,24 @@
                 <a href><li><i class='bx bxl-instagram'></i></li></a>
             </ul>
         </div>
-        .
+        <div class="barsection" id="bars" onclick="revealhiddenmenu()">
+            <i class='bx bx-menu bx-flip-horizontal'></i>
+        </div>
+        <div class="barsection" id="cancel" onclick="hidemenu()">
+            <i class="uil uil-times"></i>
+        </div>
     </header>
     <main>
         <div id="headercover">
             
+        </div>
+        <div id="hiddenmenu" style="display: none;">
+            <div class="hiddenitems"><a href="#headercover" id="homebutton" onclick="changecolorup(this);hidemenu()">Home</a></div>
+            <a href="#aboutme" id="aboutbutton" style="color: white;" onclick="changecolorup(this);hidemenu()"><div class="hiddenitems">About</div></a>
+            <a href="#services" id="servicebutton" style="color: white;" onclick="changecolorup(this);hidemenu()"><div class="hiddenitems">Services</div></a>
+            <a href="#portifolio" id="portifoliobutton" style="color: white;" onclick="changecolorup(this);hidemenu()"><div class="hiddenitems">Portifolio</div></a>
+            <a href="#blog" id="blogbutton" style="color: white;" onclick="changecolorup(this);hidemenu()"><div class="hiddenitems">Blog</div></a>
+            <a href="#contact" id="contactbutton" style="color: white;" onclick="changecolorup(this);hidemenu()"><div class="hiddenitems">Contact</div></a>
         </div>
         <div class="left">
             <span class="bigname">Migabo <span style="color: #00C0FF;">Ishimwe</span> Alain</span>
@@ -52,6 +65,10 @@
             <div class="circle">
 
             </div>
+        </div>
+        <div class="smallscalenames">
+            <span style="font-size: 40px;font-weight: 600;">Migabo <span style="color: #00C0FF;">Ishimwe </span>Alain</span><br>
+            <div style="font-size: 22px;font-weight: 600;">Web Developer Based in Kigali </div>
         </div>
         <div class="lasthomesection">
             <div class="belowboxes">
