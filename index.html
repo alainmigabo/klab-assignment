@@ -12,7 +12,7 @@
 <body>
     <header>
         <div class="logo">
-            <a href="#headercover">M<span style="color: #00C0FF;">ish</span>al</a>
+            <a href="#headercover" onclick="event.defaultPrevented()">M<span style="color: #00C0FF;">ish</span>al</a>
         </div>
         <nav>
             <ul>
@@ -70,6 +70,9 @@
             <span style="font-size: 40px;font-weight: 600;">Migabo <span style="color: #00C0FF;">Ishimwe </span>Alain</span><br>
             <div style="font-size: 22px;font-weight: 600;">Web Developer Based in Kigali </div>
         </div>
+        <div class="hirebutton" style="display: none;">
+            <button style="border: none;background-color:transparent;color:white;font-size: 18px;font-weight: 600;" onclick="pagereloadprevention()">Hire Me</button>
+        </div>
         <div class="lasthomesection">
             <div class="belowboxes">
                 <div class="iconsection">
@@ -117,8 +120,8 @@
             </div>
         </div>
         <div class="aboutright" style="color: rgb(180, 172, 172);">
-            <h2 style="color: white;margin-left: 20px;">ABOUT ME</h2>
-            <p style="margin-right: 100px;">I am a creative Web and software developer with experience of 1 year working with the highly appreciated lab which makes me aware of whatever a client needs whenever we Interact with each other </p>
+            <h2 style="color: white;margin-left: 30px;">ABOUT ME</h2>
+            <p style="margin-right: 10px;margin-left: 30px;">I am a creative Web and software developer with experience of 1 year working with the highly appreciated lab which makes me aware of whatever a client needs whenever we Interact with each other </p>
             <div class="address1">
                 <div class="inneraddress">
                     <div class="innerheads" style="margin-top: 10px;">Name</div>
@@ -131,14 +134,12 @@
             </div>
             <div class="address2">
                 <div class="inneraddress">
-                    <div class="inneraddress">
-                        <div class="innerheads" style="margin-top: 10px;">Address</div>
-                        <div style="margin-top: 10px;color: rgb(189, 187, 187);">KG 126<sup>st</sup> AVE</div>
-                        <div class="innerheads" style="margin-top: 10px;">Degree</div>
-                        <div style="margin-top: 10px;color: rgb(189, 187, 187);">Diploma</div>
-                        <div class="innerheads" style="margin-top: 10px;">Freelance</div>
-                        <div style="margin-top: 10px;color: rgb(189, 187, 187);">Available</div>
-                    </div>
+                    <div class="innerheads" style="margin-top: 10px;">Address</div>
+                    <div style="margin-top: 10px;color: rgb(189, 187, 187);">KG 126<sup>st</sup> AVE</div>
+                    <div class="innerheads" style="margin-top: 10px;">Degree</div>
+                    <div style="margin-top: 10px;color: rgb(189, 187, 187);">Diploma</div>
+                    <div class="innerheads" style="margin-top: 10px;">Freelance</div>
+                    <div style="margin-top: 10px;color: rgb(189, 187, 187);">Available</div>               
                 </div>
             </div>
         </div>
