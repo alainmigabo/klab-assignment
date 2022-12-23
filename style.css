@@ -1222,7 +1222,7 @@ form ::placeholder{
     }
     .closingaboutboxes{
         border: none;
-        height: 160px;
+        height: 140px;
         width: 40%;
         background-color: #3A2B71;
         margin-top: 20px;
@@ -1285,7 +1285,7 @@ form ::placeholder{
     }
     .servicebox{
         height: 340px;
-        width: 98%;
+        width: 94%;
         background-color: #3A2B71;
         margin-bottom: 20px;
         border-radius: 10px;
@@ -1295,5 +1295,10 @@ form ::placeholder{
     }
     .nums{
         font-size: 50px;
+        margin-top: 30px;
+    }
+    .words{
+        margin-top: 40px;
+        font-size: 20px;
     }
 }
