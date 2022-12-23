@@ -708,7 +708,7 @@ a{
     border: none;
     height: 300px;
     width: 30%;
-    background-image: url("1.jpg");
+    background-image: url("1.JPG");
     background-position: center;
     background-size: cover;
     margin-top: 20px;
@@ -718,7 +718,7 @@ a{
     border: none;
     height: 300px;
     width: 30%;
-    background-image: url("2.jpg");
+    background-image: url("2.JPG");
     background-position: center;
     background-size: cover;
     margin-top: 20px;
@@ -728,7 +728,7 @@ a{
     border: none;
     height: 300px;
     width: 30%;
-    background-image: url("3.jpg");
+    background-image: url("3.JPG");
     background-position: center;
     background-size: cover;
     margin-top: 20px;
@@ -738,7 +738,7 @@ a{
     border: none;
     height: 300px;
     width: 30%;
-    background-image: url("4.jpg");
+    background-image: url("4.JPG");
     background-position: center;
     background-size: cover;
     margin-top: 20px;
@@ -748,7 +748,7 @@ a{
     border: none;
     height: 300px;
     width: 30%;
-    background-image: url("6.jpg");
+    background-image: url("6.JPG");
     background-position: center;
     background-size: cover;
     margin-top: 20px;
@@ -758,7 +758,7 @@ a{
     border: none;
     height: 300px;
     width: 30%;
-    background-image: url("7.jpg");
+    background-image: url("7.JPG");
     background-position: center;
     background-size: cover;
     margin-top: 20px;
@@ -1285,7 +1285,7 @@ form ::placeholder{
     }
     .servicebox{
         height: 340px;
-        width: 94%;
+        width: 98%;
         background-color: #3A2B71;
         margin-bottom: 20px;
         border-radius: 10px;
@@ -1293,5 +1293,7 @@ form ::placeholder{
         flex-wrap: wrap;
         margin-left: 3%;
     }
-    
+    .nums{
+        font-size: 50px;
+    }
 }
