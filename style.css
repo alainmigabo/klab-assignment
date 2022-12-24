@@ -1098,7 +1098,7 @@ form ::placeholder{
         display: flex;
         width: 50%;
         height: 220px;
-        margin-left: 25%;
+        margin-left: 0%;
     }
     .smallscalenames{
         display: flex;
