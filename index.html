@@ -70,8 +70,8 @@
             <span style="font-size: 40px;font-weight: 600;">Migabo <span style="color: #00C0FF;">Ishimwe </span>Alain</span><br>
             <div style="font-size: 22px;font-weight: 600;">Web Developer Based in Kigali </div>
         </div>
-        <div class="hirebutton" style="display: none;">
-            <button style="border: none;background-color:transparent;color:white;font-size: 18px;font-weight: 600;" onclick="pagereloadprevention()">Hire Me</button>
+        <div id="hiddenhirebutton">
+            Hire Me
         </div>
         <div class="lasthomesection">
             <div class="belowboxes">
@@ -105,7 +105,7 @@
         <div id="aboutme">
             About Me
         </div>
-        <div class="passionateme">
+        <div class="passionateme" id="what">
             <span>A Passionate developer with dream to cut all </span><br>possible barriers using codes
         </div>
         <div class="aboutleft">
@@ -192,7 +192,7 @@
         <div class="start" id="skills">
             Skills
         </div>
-        <div class="passionateme">
+        <div class="passionateme" id="what">
             <span>I Work Hard to Improve My Skills</span><br> Reguraly
         </div>
         <div class="languagesbox">
@@ -294,7 +294,7 @@
         <div class="start" style="margin-top: 100px;" id="services">
             Services
         </div>
-        <div class="passionateme">
+        <div class="passionateme" id="what">
             What I Do For My Clients
         </div>
         <div class="serviceboxes">
@@ -384,107 +384,111 @@
             </div>
         </div>
         <div class="start" style="margin-top: 100px;">Resume</div>
-        <div class="passionateme">I Worked For Some Big<br> Companies</div>
-        <div class="experience">
-            Experience
-        </div>
-        <div class="education">
-            Education
-        </div>
+        <div class="passionateme" id="what">I Worked For Some Big<br> Companies</div>
         <div class="workcontainer">
-            <div class="work">
-                <div class="symbolholder" id="leftsymbol">
-                    <div class="symbol">
-                        <i class='bx bxs-briefcase' style="margin-top: 14px;"></i>
+            <div class="workexperience">
+                <div class="experience">
+                    Experience
+                </div>
+                <div class="work" id="firstwork">
+                    <div class="symbolholder" id="leftsymbol">
+                        <div class="symbol">
+                            <i class='bx bxs-briefcase' style="margin-top: 14px;"></i>
+                        </div>
+                        <div class="line">
+    
+                        </div>
                     </div>
-                    <div class="line">
-
+                    <div class="wordsholder">
+                        <span style="font-size: 24px;font-weight: 700;color: white;">UI/UX Designer</span> <span style="color: rgb(189, 187, 187);">(2022 - 2022)</span>
+                        <div style="margin-top: 10px;color:white;font-size: 18px;font-weight: 700;">My Portifolio</div>
+                        <div style="color: rgb(189, 187, 187);margin-top: 20px;">I have not worked proffessionally as a UI/UX designer but I have designed my portifolio</div>
                     </div>
                 </div>
-                <div class="wordsholder">
-                    <span style="font-size: 24px;font-weight: 700;color: white;">UI/UX Designer</span> <span style="color: rgb(189, 187, 187);">(2022 - 2022)</span>
-                    <div style="margin-top: 10px;color:white;font-size: 18px;font-weight: 700;">My Portifolio</div>
-                    <div style="color: rgb(189, 187, 187);margin-top: 20px;">I have not worked proffessionally as a UI/UX designer but I have designed my portifolio</div>
-                </div>
-            </div>
-            <div class="work">
-                <div class="symbolholder" id="rightsymbol">
-                    <div class="symbol">
-                        <i class='bx bxs-graduation' style="margin-top: 14px;"></i>
+                <div class="work">
+                    <div class="symbolholder" id="leftsymbol">
+                        <div class="symbol">
+                            <i class='bx bxs-briefcase' style="margin-top: 14px;"></i>
+                        </div>
+                        <div class="line">
+                            
+                        </div>
                     </div>
-                    <div class="line">
-                        
-                    </div>
-                </div>
-                <div class="wordsholder">
-                    <span style="font-size: 24px;font-weight: 700;color: white;">Trainings</span> <span style="color: rgb(189, 187, 187);">(2022 - 2022)</span>
-                    <div style="margin-top: 10px;color:white;font-size: 18px;font-weight: 700;">I4G&ZURI Trainings</div>
-                    <div style="color: rgb(189, 187, 187);margin-top: 20px;">I graduated in Ingressive for good and zuri trainings cohort 2</div>
-                </div>
-            </div>
-            <div class="work">
-                <div class="symbolholder" id="leftsymbol">
-                    <div class="symbol">
-                        <i class='bx bxs-briefcase' style="margin-top: 14px;"></i>
-                    </div>
-                    <div class="line">
-                        
+                    <div class="wordsholder">
+                        <span style="font-size: 24px;font-weight: 700;color: white;">Web designer</span> <span style="color: rgb(189, 187, 187);">(2022 - 2022)</span>
+                        <div style="margin-top: 10px;color:white;font-size: 18px;font-weight: 700;">My Portifolio</div>
+                        <div style="color: rgb(189, 187, 187);margin-top: 20px;">I haven't worked proffessionaly in web designing but this portifolio may demonstrate What I can do</div>
                     </div>
                 </div>
-                <div class="wordsholder">
-                    <span style="font-size: 24px;font-weight: 700;color: white;">Web designer</span> <span style="color: rgb(189, 187, 187);">(2022 - 2022)</span>
-                    <div style="margin-top: 10px;color:white;font-size: 18px;font-weight: 700;">My Portifolio</div>
-                    <div style="color: rgb(189, 187, 187);margin-top: 20px;">I haven't worked proffessionaly in web designing but this portifolio may demonstrate What I can do</div>
-                </div>
-            </div>
-            <div class="work">
-                <div class="symbolholder" id="rightsymbol">
-                    <div class="symbol">
-                        <i class='bx bxs-graduation' style="margin-top: 14px;"></i>
+                <div class="work">
+                    <div class="symbolholder" id="leftsymbol">
+                        <div class="symbol">
+                            <i class='bx bxs-briefcase' style="margin-top: 14px;"></i>
+                        </div>
+                        <div class="line">
+                            
+                        </div>
                     </div>
-                    <div class="line">
-                        
+                    <div class="wordsholder">
+                        <span style="font-size: 24px;font-weight: 700;color: white;">Software Development</span> <span style="color: rgb(189, 187, 187);">(2021 - 2022)</span>
+                        <div style="margin-top: 10px;color:white;font-size: 18px;font-weight: 700;">GSRR</div>
+                        <div style="color: rgb(189, 187, 187);margin-top: 20px;">I Collaborated with my colleagues to work on our school's database</div>
                     </div>
-                </div>
-                <div class="wordsholder">
-                    <span style="font-size: 24px;font-weight: 700;color: white;">High School</span> <span style="color: rgb(189, 187, 187);">(2019 - 2022)</span>
-                    <div style="margin-top: 10px;color:white;font-size: 18px;font-weight: 700;">GSRR</div>
-                    <div style="color: rgb(189, 187, 187);margin-top: 20px;">I graduated my high school in Groupe scolaire Remera Rukoma in MPC Combination</div>
                 </div>
             </div>
-            <div class="work">
-                <div class="symbolholder" id="leftsymbol">
-                    <div class="symbol">
-                        <i class='bx bxs-briefcase' style="margin-top: 14px;"></i>
+            <div class="workeducation">
+                <div class="education">
+                    Education
+                </div>
+                <div class="work" id="firstwork">
+                    <div class="symbolholder" id="rightsymbol">
+                        <div class="symbol">
+                            <i class='bx bxs-graduation' style="margin-top: 14px;"></i>
+                        </div>
+                        <div class="line">
+                            
+                        </div>
                     </div>
-                    <div class="line">
-                        
+                    <div class="wordsholder">
+                        <span style="font-size: 24px;font-weight: 700;color: white;">Trainings</span> <span style="color: rgb(189, 187, 187);">(2022 - 2022)</span>
+                        <div style="margin-top: 10px;color:white;font-size: 18px;font-weight: 700;">I4G&ZURI Trainings</div>
+                        <div style="color: rgb(189, 187, 187);margin-top: 20px;">I graduated in Ingressive for good and zuri trainings cohort 2</div>
                     </div>
                 </div>
-                <div class="wordsholder">
-                    <span style="font-size: 24px;font-weight: 700;color: white;">Software Development</span> <span style="color: rgb(189, 187, 187);">(2021 - 2022)</span>
-                    <div style="margin-top: 10px;color:white;font-size: 18px;font-weight: 700;">GSRR</div>
-                    <div style="color: rgb(189, 187, 187);margin-top: 20px;">I Collaborated with my colleagues to work on our school's database</div>
-                </div>
-            </div>
-            <div class="work">
-                <div class="symbolholder" id="rightsymbol">
-                    <div class="symbol">
-                        <i class='bx bxs-graduation' style="margin-top: 14px;"></i>
+                <div class="work">
+                    <div class="symbolholder" id="rightsymbol">
+                        <div class="symbol">
+                            <i class='bx bxs-graduation' style="margin-top: 14px;"></i>
+                        </div>
+                        <div class="line">
+                            
+                        </div>
                     </div>
-                    <div class="line">
-                        
+                    <div class="wordsholder">
+                        <span style="font-size: 24px;font-weight: 700;color: white;">High School</span> <span style="color: rgb(189, 187, 187);">(2019 - 2022)</span>
+                        <div style="margin-top: 10px;color:white;font-size: 18px;font-weight: 700;">GSRR</div>
+                        <div style="color: rgb(189, 187, 187);margin-top: 20px;">I graduated my high school in Groupe scolaire Remera Rukoma in MPC Combination</div>
                     </div>
                 </div>
-                <div class="wordsholder">
-                    <span style="font-size: 24px;font-weight: 700;color: white;">Ordinary level</span> <span style="color: rgb(189, 187, 187);">(2016 - 2018)</span>
-                    <div style="margin-top: 10px;color:white;font-size: 18px;font-weight: 700;">CSEG</div>
-                    <div style="color: rgb(189, 187, 187);margin-top: 20px;">I covered my ordinary level in centre scolaire Elena Guerra</div>
+                <div class="work">
+                    <div class="symbolholder" id="rightsymbol">
+                        <div class="symbol">
+                            <i class='bx bxs-graduation' style="margin-top: 14px;"></i>
+                        </div>
+                        <div class="line">
+                            
+                        </div>
+                    </div>
+                    <div class="wordsholder">
+                        <span style="font-size: 24px;font-weight: 700;color: white;">Ordinary level</span> <span style="color: rgb(189, 187, 187);">(2016 - 2018)</span>
+                        <div style="margin-top: 10px;color:white;font-size: 18px;font-weight: 700;">CSEG</div>
+                        <div style="color: rgb(189, 187, 187);margin-top: 20px;">I covered my ordinary level in centre scolaire Elena Guerra</div>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="start" id="portifolio">Portifolio</div>
-        <div class="passionateme">What I Do for My Clients</div>
+        <div class="passionateme" id="what">What I Do for My Clients</div>
         <div class="navlike">
             <ul>
                 <a href="" id="all" onclick="pagereloadprevention();changecolordown(this)" style="color: #00C0FF;"><li>All</li></a>
@@ -496,42 +500,42 @@
             </ul>
         </div>
         <div class="portifolioboxesholder">
-            <div id="portifoliobox1" onmouseover="activate1()" onmouseout="disactivate()">
+            <div class="portifoliobox" id="portifoliobox1" onmouseover="activate1()" onmouseout="disactivate()">
                 <div id="hiddenpart1" style="visibility: hidden;">
                     
                 </div>
             </div>
-            <div class="portifoliobox2" onmouseover="activate()" onmouseout="disactivate()">
+            <div class="portifoliobox" id="portifoliobox2" onmouseover="activate()" onmouseout="disactivate()">
                 <div id="hiddenpart2" style="visibility: hidden;">
                     
                 </div>
             </div>
-            <div class="portifoliobox3" onmouseover="activate()" onmouseout="disactivate()">
+            <div class="portifoliobox" id="portifoliobox3" onmouseover="activate()" onmouseout="disactivate()">
                 <div id="hiddenpart3" style="visibility: hidden;">
                     
                 </div>
             </div>
-            <div class="portifoliobox4" onmouseover="activate()" onmouseout="disactivate()">
+            <div class="portifoliobox" id="portifoliobox4" onmouseover="activate()" onmouseout="disactivate()">
                 <div id="hiddenpart4" style="visibility: hidden;">
                     
                 </div>
             </div>
-            <div class="portifoliobox6" onmouseover="activate()" onmouseout="disactivate()">
+            <div class="portifoliobox" id="portifoliobox6" onmouseover="activate()" onmouseout="disactivate()">
                 <div id="hiddenpart6" style="visibility: hidden;">
                     
                 </div>
             </div>
-            <div class="portifoliobox7" onmouseover="activate()" onmouseout="disactivate()">
+            <div class="portifoliobox" id="portifoliobox7" onmouseover="activate()" onmouseout="disactivate()">
                 <div id="hiddenpart7" style="visibility: hidden;">
                     
                 </div>
             </div>
         </div>
         <div class="start" style="margin-top: 160px;">Testimonials</div>
-        <div class="passionateme">What Clients Say</div>
+        <div class="passionateme" id="what">What Clients Say</div>
         <div class="quote"><i class='bx bxs-quote-left'></i></div>
         <div class="comments">
-            Really the Code Quality, Customer Support and Design are awesome and its good support they are giving. They give an instant solution to our needs. Really awesome. I wil strongly recommend to my friends. Simply amazing team and amazing theme! Thank you from United States of America.
+            Really the Code Quality, Customer Support, and Design are awesome and its good support they are giving. They give an instant solution to our needs. Really awesome. I wil strongly recommend to my friends. Simply amazing team and amazing theme! Thank you from United States of America.
         </div>
         <div class="commenteraddress">
             <div class="commenterpic"></div>
@@ -540,10 +544,19 @@
                 <div style="font-size: 20px;color:rgb(189, 187, 187);">Vivavo Studio</div>
             </div>
         </div>
-        <div class="dotsection"></div>
+        <div class="dotsection">
+            <div class="dotcover" id="leftcover">
+                <div class="dot"></div>
+            </div>
+            <div class="dotcover" id="middlecover">
+                <div class="dot"></div></div>
+            <div class="dotcover" id="rightcover">
+                <div class="dot"></div>
+            </div>
+        </div>
         <div class="downlanguagesbox"></div>
         <div class="start" id="blog">Blog</div>
-        <div class="passionateme">Latest Blog Posts</div>
+        <div class="passionateme" id="what">Latest Blog Posts</div>
         <div class="blogboxes">
             <div class="blogbox">
                 <div class="blogpic" id="music"></div>

@@ -130,6 +130,9 @@ main{
     text-align: center;
     border-radius: 40px;
 }
+#hiddenhirebutton{
+    display: none;
+}
 .lasthomesection{
     border: none;
     height: fit-content;
@@ -595,11 +598,10 @@ main{
     height: fit-content;
     width: 25%;
     background-color: transparent;
-    float: left;
     color: white;
     font-size: 36px;
     font-weight: 700;
-    margin-left: 12%;   
+    margin-left: 24%;   
 }
 .education{
     border: none;
@@ -610,12 +612,14 @@ main{
     color: white;
     font-size: 36px;
     font-weight: 700;
-    margin-left: 16%;
+    margin-left: 6%;
+}
+#firstwork{
+    margin-top: 60px;
 }
 .work{
     border: none;
-    height: 200px;
-    width: 50%;
+    height: fit-content;
     background-color: transparent;
 }
 .workcontainer{
@@ -624,11 +628,28 @@ main{
     width: 100%;
     background-color: transparent;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
+}
+.workexperience{
+    border: none;
+    height: fit-content;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+.workeducation{
+    border: none;
+    height: fit-content;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
 }
 .symbolholder{
     border: none;
-    height: 200px;
+    height: fit-content;
     width: 11%;
     float: left;
 }
@@ -644,28 +665,26 @@ main{
 }
 #leftsymbol{
     margin-left: 24%;
-    margin-top: 60px;
 }
 #rightsymbol{
     margin-left: 7%;
-    margin-top: 60px;
 }
 .line{
     border: 1px solid rgb(189, 187, 187);
+    border-left: none;
     height: 130px;
     width: 0px;
     margin-left: 35px;
 }
 .wordsholder{
     border: none;
-    height: 200px;
-    width: 50%;
+    height: fit-content;
+    width: 60%;
     float: left;
-    margin-top: 60px;
     margin-left: 4%;
 }
 #portifolio{
-    margin-top: 200px;
+    margin-top: 60px;
     padding-top: 100px;
 }
 .navlike{
@@ -676,6 +695,9 @@ main{
 }
 .navlike ul{
     display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 40px;
     list-style: none;
     font-weight: 600;
@@ -685,17 +707,8 @@ a{
     text-decoration: none;
     color: white;
 }
-.navlike ul a :active{
-    color: #00C0FF;
-}
 .navlike ul a :hover{
     color: #00C0FF;
-}
-#hgfhsfhskj{
-    border: none;
-    height: 60px;
-    width: 60px;
-    background-color: black;
 }
 .portifolioboxesholder{
     border: none;
@@ -708,65 +721,32 @@ a{
     padding-left: 10%;
     padding-right: 10%;
 }
+.portifoliobox{
+    border: none;
+    height: 300px;
+    width: 30%;
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    border-radius: 10px;
+}
 #portifoliobox1{
-    border: none;
-    height: 300px;
-    width: 30%;
     background-image: url("1.JPG");
-    background-position: center;
-    background-size: cover;
-    margin-top: 20px;
-    border-radius: 10px;
 }
-.portifoliobox2{
-    border: none;
-    height: 300px;
-    width: 30%;
+#portifoliobox2{
     background-image: url("2.JPG");
-    background-position: center;
-    background-size: cover;
-    margin-top: 20px;
-    border-radius: 10px;
 }
-.portifoliobox3{
-    border: none;
-    height: 300px;
-    width: 30%;
+#portifoliobox3{
     background-image: url("3.JPG");
-    background-position: center;
-    background-size: cover;
-    margin-top: 20px;
-    border-radius: 10px;
 }
-.portifoliobox4{
-    border: none;
-    height: 300px;
-    width: 30%;
+#portifoliobox4{
     background-image: url("4.JPG");
-    background-position: center;
-    background-size: cover;
-    margin-top: 20px;
-    border-radius: 10px;
 }
-.portifoliobox6{
-    border: none;
-    height: 300px;
-    width: 30%;
+#portifoliobox6{
     background-image: url("6.JPG");
-    background-position: center;
-    background-size: cover;
-    margin-top: 20px;
-    border-radius: 10px;
 }
-.portifoliobox7{
-    border: none;
-    height: 300px;
-    width: 30%;
+#portifoliobox7{
     background-image: url("7.JPG");
-    background-position: center;
-    background-size: cover;
-    margin-top: 20px;
-    border-radius: 10px;
 }
 #hiddenpart{
     border: none;
@@ -824,8 +804,29 @@ a{
 .dotsection{
     border: none;
     height: 100px;
-    width: 60%;
-    margin-top: 40px;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+.dotcover{
+    border: 2px solid white;
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+}
+#leftcover,#rightcover{
+    border: none;
+}
+.dot{
+    border: none;
+    height: 10px;
+    width: 10px;
+    background-color: #00C0FF;
+    margin: 2px;
+    border-radius: 50%;
 }
 .downlanguagesbox{
     border: none;
@@ -1039,7 +1040,7 @@ form ::placeholder{
     padding-bottom: 28px;
     text-align: center;
 }
-@media screen and (max-width: 600px) {
+@media (max-width:600px){
     html{
         align-items: center;
     }
@@ -1047,6 +1048,7 @@ form ::placeholder{
         display: none;
     }
     header{
+        border-bottom: 1px solid rgba(189, 187, 187, 0.282);
         display: flex;
         background-color: #1e1448;
         justify-content: space-between;
@@ -1054,6 +1056,7 @@ form ::placeholder{
         color: white;
         position: fixed;
         width: 100%;
+        height: 50px;
     }
     header a :hover{
         color: #00C0FF;
@@ -1084,7 +1087,7 @@ form ::placeholder{
         text-align: left;
         gap: 10px;
         position: fixed;
-        top: 40px;
+        top: 51px;
     }
     #headercover{
         border: none;
@@ -1136,16 +1139,22 @@ form ::placeholder{
         margin-top: 80px;
         margin-left: 3%;
     }
-    .hirebutton{
+    main{
+        justify-content: center;
+    }
+    .cvbutton{
+        margin-left: 0%;
+    }
+    #hiddenhirebutton{
+        display: flex;
         border: none;
         height: 40px;
-        width: 40%;
+        width: 160px;
         background-color: #00C0FF;
-        margin-left: 30%;
         margin-top: 30px;
         padding-top: 10px;
         font-weight: 600;
-        text-align: center;
+        
         border-radius: 40px;
     }
     .iconsection i{
@@ -1321,4 +1330,81 @@ form ::placeholder{
         margin-top: 50px;
         margin-left: 8%;
     }
+    .workcontainer{
+        flex-direction: column;
+    }
+    .workexperience{
+        width: 100%;
+    }
+    .workeducation{
+        width: 100%;
+    }
+    #leftsymbol{
+        margin-left: 4%;
+    }
+    #rightsymbol{
+        margin-left: 4%;
+    }
+    .wordsholder{
+        width: 70%;
+    }
+    .experience{
+        margin-left: 6%;
+    }
+    .portifolioboxesholder{
+        border: none;
+        height: fit-content;
+        width: 100%;
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0%;
+    }
+    .portifoliobox{
+        width: 92%;
+        background-position: center;
+        background-size: cover;
+        margin-top: 20px;
+        border-radius: 10px;
+        margin-left: 4%;
+    }
+    #what{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .start{
+        font-size: 20px;
+    }
+    .quote{
+        font-size: 80px;
+        margin-top: 20px;
+    }
+    .comments{
+        padding-left: 4%;
+        padding-right: 4%;
+        font-style: italic;
+        font-size: 24px;
+        text-align: center;
+        color: white;
+    }
+    .downlanguagesbox{
+        margin: 0;
+    }
+    .blogboxes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+        margin-top: 60px;
+    }
+    .blogbox{
+        width: 92%;
+        background-color: #432D92;
+        border-radius: 16px;
+        margin-left: 4%;
+        margin-top: 16px;
+    }
+    
 }
