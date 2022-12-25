@@ -12,7 +12,7 @@
 <body>
     <header>
         <div class="logo">
-            <a href="#headercover" onclick="event.defaultPrevented()">M<span style="color: #00C0FF;">ish</span>al</a>
+            <a href="#headercover">M<span style="color: #00C0FF;">ish</span>al</a>
         </div>
         <nav>
             <ul>
@@ -70,9 +70,9 @@
             <span style="font-size: 40px;font-weight: 600;">Migabo <span style="color: #00C0FF;">Ishimwe </span>Alain</span><br>
             <div style="font-size: 22px;font-weight: 600;">Web Developer Based in Kigali </div>
         </div>
-        <div id="hiddenhirebutton">
+        <a href="#contact"><div id="hiddenhirebutton">
             Hire Me
-        </div>
+        </div></a>
         <div class="lasthomesection">
             <div class="belowboxes">
                 <div class="iconsection">
@@ -581,12 +581,12 @@
             </div>
         </div>
         <div class="start" id="contact">Contact</div>
-        <div class="passionateme">I Want to Hear from you</div>
+        <div class="passionateme" id="what">I Want to Hear from you</div>
         <div class="contactsections">
             <div class="contactleftsection">
                 <div class="contactcombination">
                     <div class="contactsymbol">
-                        <i class='bx bxs-location-plus' style="margin-top: 30px;"></i>
+                        <div class="originalsymbol"><i class='bx bxs-location-plus'></i></div>
                     </div>
                     <div style="margin-left: 20px;">
                         <div style="font-size:30px;font-weight: 700;margin-top: 2px;">Address</div>
@@ -595,7 +595,9 @@
                 </div>
                 <div class="contactcombination">
                     <div class="contactsymbol">
-                        <i class='bx bxs-envelope' style="margin-top: 30px;"></i>
+                        <div class="originalsymbol">
+                            <i class='bx bxs-envelope'></i>
+                        </div>
                     </div>
                     <div style="margin-left: 20px;">
                         <div style="font-size:30px;font-weight: 700;margin-top: 2px;">E-mail</div>
@@ -604,7 +606,9 @@
                 </div>
                 <div class="contactcombination">
                     <div class="contactsymbol">
-                        <i class='bx bxs-phone' style="margin-top: 30px;"></i>
+                        <div class="originalsymbol">
+                            <i class='bx bxs-phone'></i>
+                        </div>
                     </div>
                     <div style="margin-left: 20px;">
                         <div style="font-size:30px;font-weight: 700;margin-top: 2px;">Phone</div>
@@ -616,7 +620,7 @@
                 <form action="">
                     <input type="text" id="formname" placeholder="Your name">
                     <input type="email" id="formemail" placeholder="Your email">
-                    <input type="number" id="formphone" placeholder="Phone Number">
+                    <input type="text" id="formphone" placeholder="Phone Number">
                     <input type="text" id="formsubject" placeholder="Subject">
                     <textarea name="message" id="formmessage" placeholder="Type Your Message Here"></textarea>
                 </form>
@@ -625,9 +629,11 @@
             <div class="contactlowersection">
                 <div class="lastdownpart">
                     <div class="leftlastpart">
-                        <div style="color: #00C0FF;margin-top: 90px;margin-left: 17%;font-size: 20px;font-weight: 400;">Subscribe Now</div>
-                        <div style="color: white;margin-top: 4px;margin-left: 17%;font-size: 40px;font-weight: 700;">Get My Newsletter</div>
-                        <div style="color: rgb(189, 187, 187);margin-left: 17%;margin-top: 8px;">Get latest news, tips and tricks in your inbox</div>
+                        <div class="leftlastpartwords">
+                            <div style="color: #00C0FF;margin-top: 90px;font-size: 20px;font-weight: 400;">Subscribe Now</div>
+                        <div style="color: white;margin-top: 4px;font-size: 40px;font-weight: 700;">Get My Newsletter</div>
+                        <div style="color: rgb(189, 187, 187);margin-top: 8px;">Get latest news, tips and tricks in your inbox</div>
+                        </div>
                     </div>
                     <div class="rightlastpart">
                         <input type="email" placeholder="Your email here">
@@ -635,7 +641,7 @@
                     </div>
                 </div>
                 <div class="copyrightpart">
-
+                    Developed with love by <span style="color: white;">Mishal </span><i class='bx bx-copyright' style="font-size: 16px;"></i> 2022
                 </div>
             </div>
         </div>

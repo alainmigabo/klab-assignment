@@ -818,7 +818,7 @@ a{
     border-radius: 50%;
 }
 #leftcover,#rightcover{
-    border: none;
+    border-color: transparent;
 }
 .dot{
     border: none;
@@ -917,6 +917,9 @@ a{
     font-size: 40px;
     text-align: center;
 }
+.originalsymbol{
+    margin-top: 30px;
+}
 .contactrightsection{
     border: none;
     height: fit-content;
@@ -975,7 +978,8 @@ form ::placeholder{
     width: fit-content;
     background-color: #00C0FF;
     cursor: pointer;
-    padding: 16px;
+    padding-top: 16px;
+    padding-bottom: 20px;
     padding-left: 40px;
     padding-right: 40px;
     border-radius: 60px;
@@ -1004,6 +1008,11 @@ form ::placeholder{
     border: none;
     height: 100%;
     width: 50%;
+}
+.leftlastpartwords{
+    height: fit-content;
+    width: fit-content;
+    margin-left: 17%;
 }
 .rightlastpart{
     border: none;
@@ -1039,6 +1048,11 @@ form ::placeholder{
     padding-top: 28px;
     padding-bottom: 28px;
     text-align: center;
+}
+.copyrightpart{
+    margin-top: 80px;
+    text-align: center;
+    color: rgb(189, 187, 187);
 }
 @media (max-width:600px){
     html{
@@ -1409,5 +1423,95 @@ form ::placeholder{
         margin-left: 4%;
         margin-top: 16px;
     }
-    
+    .contactsections{
+        flex-direction: column;
+    }
+    .contactleftsection{
+        width: 100%;
+        margin-top: 60px;
+    }
+    .contactcombination{
+        width: 100%;
+        margin-left: 4%;
+    }
+    .contactsymbol{
+        height: 70px;
+        width: 70px;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 8px;
+    }
+    .originalsymbol{
+        margin-top: 18px;
+    }
+    .contactrightsection{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+    }    
+    #formname{
+        width: calc(92% - 32px);
+        margin-left: 4%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    #formemail{
+        width: calc(92% - 32px);
+        margin-left: 4%;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 10px;
+    }
+    #formphone{
+        width: calc(92% - 32px);
+        margin-left: 4%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    #formsubject{
+        width: calc(92% - 32px);
+        margin-left: 4%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    #formmessage{
+        width: calc(92% - 32px);
+        margin-left: 4%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    form ::placeholder{
+        text-align: left;
+    }
+    .submitnowbutton{
+        margin-left: 4%;
+    }
+    .lastdownpart{
+        height: 390px;
+        width: 90%;
+        margin-left: 5%;
+        display: flex;
+        flex-direction: column;
+    }
+    .leftlastpart{
+        height: fit-content;
+        width: 100%;
+    }
+    .leftlastpartwords{
+        margin-left: 10%;
+    }
+    .rightlastpart{
+        height: 80px;
+        width: 80%;
+        background-color: white;
+        border-radius: 14px;
+        margin-top: 40px;
+        display: flex;
+        margin-left: 10%;
+        margin-bottom: 10%;
+    }
+    .copyrightpart{
+        padding-bottom: 100px;
+    }
 }
