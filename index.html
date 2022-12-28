@@ -7,7 +7,6 @@
     <title>Mishal Portifolio</title>
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 </head>
 <body>
     <header>
@@ -618,13 +617,28 @@
             </div>
             <div class="contactrightsection">
                 <form action="">
-                    <input type="text" id="formname" placeholder="Your name">
-                    <input type="email" id="formemail" placeholder="Your email">
-                    <input type="text" id="formphone" placeholder="Phone Number">
-                    <input type="text" id="formsubject" placeholder="Subject">
-                    <textarea name="message" id="formmessage" placeholder="Type Your Message Here"></textarea>
+                    <div class="namecontainer">
+                        <input type="text" id="formname" placeholder="Your name" >
+                        <span class="errormessage" id="nameerrormessage">This field is required</span>
+                    </div>
+                    <div class="emailcontainer">
+                        <input type="email" id="formemail" placeholder="Your email">
+                        <span class="errormessage" id="emailerrormessage">This field is required</span>
+                    </div>
+                    <div class="phonecontainer">
+                        <input type="text" id="formphone" placeholder="Phone Number">
+                        <span class="errormessage" id="phoneerrormessage">This field is required</span>
+                    </div>
+                    <div class="subjectcontainer">
+                        <input type="text" id="formsubject" placeholder="Subject">
+                        <span class="errormessage" id="subjecterrormessage">This field is required</span>
+                    </div>
+                    <div class="messagecontainer">
+                        <textarea name="message" id="formmessage" placeholder="Type Your Message Here"></textarea>
+                        <span class="errormessage" id="messageerrormessage">This field is required</span>
+                    </div>
                 </form>
-                <div class="submitnowbutton">Submit now</div>
+                <div class="submitnowbutton" onclick="validateform()">Submit now</div>
             </div>
             <div class="contactlowersection">
                 <div class="lastdownpart">
@@ -641,7 +655,7 @@
                     </div>
                 </div>
                 <div class="copyrightpart">
-                    Developed with love by <span style="color: white;">Mishal </span><i class='bx bx-copyright' style="font-size: 16px;"></i> 2022
+                    Developed with love by <span style="color: white;" id="test">Mishal </span><i class='bx bx-copyright' style="font-size: 16px;"></i> 2022
                 </div>
             </div>
         </div>

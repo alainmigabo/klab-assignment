@@ -925,47 +925,79 @@ a{
     height: fit-content;
     width: 50%;
 }
+form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.namecontainer{
+    border: none;
+    height: fit-content;
+    width: calc(40% + 2px);
+    margin-top: 34px;
+}
 #formname{
     border: 1px solid rgb(151, 148, 148);
     height: 60px;
-    width: calc(40% - 2px);
+    width: calc(100% - 2px);
     background-color: transparent;
-    margin-top: 34px;
     border-radius: 10px;
+}
+.emailcontainer{
+    border: none;
+    height: fit-content;
+    width: calc(40% + 2px);
+    margin-top: 34px;
+    margin-left: 3%;
 }
 #formemail{
     border: 1px solid rgb(151, 148, 148);
     height: 60px;
-    width: calc(40% - 2px);
+    width: calc(100% - 2px);
     background-color: transparent;
-    margin-top: 34px;
     border-radius: 10px;
-    margin-left: 3%;
+}
+.phonecontainer{
+    border: none;
+    height: fit-content;
+    width: calc(40% + 2px);
 }
 #formphone{
     border: 1px solid rgb(151, 148, 148);
     height: 60px;
-    width: calc(40% - 2px);
+    width: calc(100% - 2px);
     background-color: transparent;
-    margin-top: 10px;
     border-radius: 10px;
+}
+.subjectcontainer{
+    border: none;
+    height: fit-content;
+    width: calc(40% + 2px);
+    margin-left: 3%;
 }
 #formsubject{
     border: 1px solid rgb(151, 148, 148);
     height: 60px;
-    width: calc(40% - 2px);
+    width: calc(100% - 2px);
     background-color: transparent;
-    margin-top: 10px;
     border-radius: 10px;
-    margin-left: 3%;
+}
+.messagecontainer{
+    border: none;
+    height: fit-content;
+    width: calc(84% + 2px);
 }
 #formmessage{
     border: 1px solid rgb(151, 148, 148);
     height: 200px;
-    width: calc(84% - 2px);
+    width: calc(100% - 2px);
     background-color: transparent;
-    margin-top: 10px;
     border-radius: 10px;
+}
+.errormessage{
+    font-size: 14px;
+    color: rgb(243, 132, 132);
+    margin-top: 0%;
 }
 form ::placeholder{
     text-align: center;
@@ -986,6 +1018,9 @@ form ::placeholder{
     margin-top: 16px;
     color: white;
     font-weight: 500;
+}
+#nameerrormessage,#emailerrormessage,#phoneerrormessage,#subjecterrormessage,#messageerrormessage{
+    visibility: hidden;
 }
 .contactlowersection{
     border: none;
