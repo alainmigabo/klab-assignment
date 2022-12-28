@@ -1057,6 +1057,7 @@ form ::placeholder{
     border-radius: 14px;
     margin-top: 110px;
     display: flex;
+    flex-direction: row;
 }
 .rightlastpart input{
     border: none;
@@ -1065,6 +1066,7 @@ form ::placeholder{
     width: 70%;
     border-bottom-left-radius: 14px;
     border-top-left-radius: 14px;
+    float: left;
 }
 .rightlastpart ::placeholder{
     text-align: center;
@@ -1073,7 +1075,7 @@ form ::placeholder{
 .sendnowbutton{
     border: none;
     height: fit-content;
-    width: 30%;
+    width: 125px;
     background-color: #00C0FF;
     cursor: pointer;
     border-top-right-radius: 14px;
@@ -1485,19 +1487,29 @@ form ::placeholder{
         flex-direction: column;
         flex-wrap: wrap;
         width: 100%;
-    }    
+    } 
+    .namecontainer{
+        width: 100%;
+    }       
     #formname{
         width: calc(92% - 32px);
         margin-left: 4%;
         padding-left: 15px;
         padding-right: 15px;
     }
+    .emailcontainer{
+        width: 100%;
+        margin-top: 0;
+        margin-left: 0;
+    }
     #formemail{
         width: calc(92% - 32px);
         margin-left: 4%;
         padding-left: 15px;
         padding-right: 15px;
-        margin-top: 10px;
+    }
+    .phonecontainer{
+        width: 100%;
     }
     #formphone{
         width: calc(92% - 32px);
@@ -1505,17 +1517,27 @@ form ::placeholder{
         padding-left: 15px;
         padding-right: 15px;
     }
+    .subjectcontainer{
+        width: 100%;
+        margin-left: 0;
+    }
     #formsubject{
         width: calc(92% - 32px);
         margin-left: 4%;
         padding-left: 15px;
         padding-right: 15px;
     }
+    .messagecontainer{
+        width: 100%;
+    }
     #formmessage{
         width: calc(92% - 32px);
         margin-left: 4%;
         padding-left: 15px;
         padding-right: 15px;
+    }
+    .errormessage{
+        margin-left: 4%
     }
     form ::placeholder{
         text-align: left;
@@ -1524,7 +1546,7 @@ form ::placeholder{
         margin-left: 4%;
     }
     .lastdownpart{
-        height: 390px;
+        height: 440px;
         width: 90%;
         margin-left: 5%;
         display: flex;
