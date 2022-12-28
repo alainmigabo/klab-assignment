@@ -748,14 +748,18 @@ a{
 #portifoliobox7{
     background-image: url("7.JPG");
 }
-#hiddenpart{
+.hiddenpart{
     border: none;
-    height: 60px;
+    height: 70px;
     width: 80%;
-    background-color: #1e1448;
-    margin-top: 220px;
+    background-color: hsl(252, 57%, 18%);
+    margin-top: 190px;
     margin-left: 10%;
     border-radius: 10px;
+    padding-top: 16px;
+}
+#hiddenpart1,#hiddenpart2,#hiddenpart3,#hiddenpart4,#hiddenpart6,#hiddenpart7{
+    visibility: hidden;
 }
 .quote{
     border: none;
