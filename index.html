@@ -111,11 +111,11 @@
             <div class="medal">
                 
             </div>
-            <div class="pic">
-                
-            </div>
             <div class="coffeewithpc">
 
+            </div>
+            <div class="pic">
+                
             </div>
         </div>
         <div class="aboutright" style="color: rgb(180, 172, 172);">
@@ -490,12 +490,12 @@
         <div class="passionateme" id="what">What I Do for My Clients</div>
         <div class="navlike">
             <ul>
-                <a href="" id="all" onclick="pagereloadprevention();changecolordown(this)" style="color: #00C0FF;"><li>All</li></a>
-                <a href="" id="youtube" onclick="pagereloadprevention();changecolordown(this)" style="color: white;"><li>Youtube</li></a>
-                <a href="" id="vimeo" onclick="pagereloadprevention();changecolordown(this)" style="color: white;"><li>Vimeo</li></a>
-                <a href="" id="soundcloud" onclick="pagereloadprevention();changecolordown(this)" style="color: white;"><li>Soundcloud</li></a>
-                <a href="" id="popup" onclick="pagereloadprevention();changecolordown(this)" style="color: white;"><li>Popup</li></a>
-                <a href="" id="content" onclick="pagereloadprevention();changecolordown(this)" style="color: white;"><li>Content</li></a>
+                <a href="" id="all" onclick="pagereloadprevention();changecolordown(this);handleportifolioboxes(this)" style="color: #00C0FF;"><li>All</li></a>
+                <a href="" id="youtube" onclick="pagereloadprevention();changecolordown(this);handleportifolioboxes(this)" style="color: white;"><li>Youtube</li></a>
+                <a href="" id="vimeo" onclick="pagereloadprevention();changecolordown(this);handleportifolioboxes(this)" style="color: white;"><li>Vimeo</li></a>
+                <a href="" id="soundcloud" onclick="pagereloadprevention();changecolordown(this);handleportifolioboxes(this)" style="color: white;"><li>Soundcloud</li></a>
+                <a href="" id="popup" onclick="pagereloadprevention();changecolordown(this);handleportifolioboxes(this)" style="color: white;"><li>Popup</li></a>
+                <a href="" id="content" onclick="pagereloadprevention();changecolordown(this);handleportifolioboxes(this)" style="color: white;"><li>Content</li></a>
             </ul>
         </div>
         <div class="portifolioboxesholder">
@@ -539,23 +539,43 @@
         <div class="start" style="margin-top: 160px;">Testimonials</div>
         <div class="passionateme" id="what">What Clients Say</div>
         <div class="quote"><i class='bx bxs-quote-left'></i></div>
-        <div class="comments">
+        <div class="comments" id="comment2">
             Really the Code Quality, Customer Support, and Design are awesome and its good support they are giving. They give an instant solution to our needs. Really awesome. I wil strongly recommend to my friends. Simply amazing team and amazing theme! Thank you from United States of America.
         </div>
-        <div class="commenteraddress">
-            <div class="commenterpic"></div>
+        <div class="comments" id="comment1">
+            I rarely like to write reviews, but the marketify team truly deserve a standing ovation for their customer support, customization and most importantly friendliness and proffessionalism. Many thanks once again for everything and I hope that I get to deal with you again in the near future.
+        </div>
+        <div class="comments" id="comment3">
+            Loved the template design, documentation, cutomizability and the customer support from the mishal team! I am a noob in programming with a little knowledge in coding but the mishal team helped me to launch my resume website successfully. Much recommended!
+        </div>
+        <div class="commenteraddress" id="commenteraddress1">
+            <div class="commenterpic" id="commenterpic1"></div>
+            <div class="restaddress">
+                <span style="font-size: 26px;font-weight: 700;color: white;">Keita Smith</span>
+                <div style="font-size: 20px;color:rgb(189, 187, 187);">ABC Group</div>
+            </div>
+        </div>
+        <div class="commenteraddress" id="commenteraddress2">
+            <div class="commenterpic" id="commenterpic2"></div>
             <div class="restaddress">
                 <span style="font-size: 26px;font-weight: 700;color: white;">Mike Anderson</span>
                 <div style="font-size: 20px;color:rgb(189, 187, 187);">Vivavo Studio</div>
             </div>
         </div>
+        <div class="commenteraddress" id="commenteraddress3">
+            <div class="commenterpic" id="commenterpic3"></div>
+            <div class="restaddress">
+                <span style="font-size: 26px;font-weight: 700;color: white;">Alan Walker</span>
+                <div style="font-size: 20px;color:rgb(189, 187, 187);">Web Designer</div>
+            </div>
+        </div>
         <div class="dotsection">
-            <div class="dotcover" id="leftcover">
+            <div class="dotcover" id="leftcover" onclick="callcomment(this)">
                 <div class="dot"></div>
             </div>
-            <div class="dotcover" id="middlecover">
+            <div class="dotcover" id="middlecover" onclick="callcomment(this)">
                 <div class="dot"></div></div>
-            <div class="dotcover" id="rightcover">
+            <div class="dotcover" id="rightcover" onclick="callcomment(this)">
                 <div class="dot"></div>
             </div>
         </div>

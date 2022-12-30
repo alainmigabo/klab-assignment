@@ -166,3 +166,83 @@ function disactivate(hovered) {
         document.getElementById("hiddenpart7").style.visibility = "hidden";
     }
 }
+function handleportifolioboxes(clicked) {
+    if (clicked.id == "all") {
+        document.getElementById("portifoliobox1").style.display = "flex";
+        document.getElementById("portifoliobox2").style.display = "flex";
+        document.getElementById("portifoliobox3").style.display = "flex";
+        document.getElementById("portifoliobox4").style.display = "flex";
+        document.getElementById("portifoliobox6").style.display = "flex";
+        document.getElementById("portifoliobox7").style.display = "flex";
+    } 
+    else if (clicked.id == "youtube") {
+        document.getElementById("portifoliobox1").style.display = "flex";
+        document.getElementById("portifoliobox2").style.display = "none";
+        document.getElementById("portifoliobox3").style.display = "none";
+        document.getElementById("portifoliobox4").style.display = "none";
+        document.getElementById("portifoliobox6").style.display = "none";
+        document.getElementById("portifoliobox7").style.display = "none";
+    }
+    else if (clicked.id == "vimeo") {
+        document.getElementById("portifoliobox1").style.display = "none";
+        document.getElementById("portifoliobox2").style.display = "flex";
+        document.getElementById("portifoliobox3").style.display = "none";
+        document.getElementById("portifoliobox4").style.display = "none";
+        document.getElementById("portifoliobox6").style.display = "none";
+        document.getElementById("portifoliobox7").style.display = "none";
+    }
+    else if (clicked.id == "soundcloud") {
+        document.getElementById("portifoliobox1").style.display = "none";
+        document.getElementById("portifoliobox2").style.display = "none";
+        document.getElementById("portifoliobox3").style.display = "flex";
+        document.getElementById("portifoliobox4").style.display = "none";
+        document.getElementById("portifoliobox6").style.display = "none";
+        document.getElementById("portifoliobox7").style.display = "none";
+    }
+    else if (clicked.id == "popup") {
+        document.getElementById("portifoliobox1").style.display = "none";
+        document.getElementById("portifoliobox2").style.display = "none";
+        document.getElementById("portifoliobox3").style.display = "none";
+        document.getElementById("portifoliobox4").style.display = "flex";
+        document.getElementById("portifoliobox6").style.display = "flex";
+        document.getElementById("portifoliobox7").style.display = "none";
+    }
+    else {
+        document.getElementById("portifoliobox1").style.display = "none";
+        document.getElementById("portifoliobox2").style.display = "none";
+        document.getElementById("portifoliobox3").style.display = "none";
+        document.getElementById("portifoliobox4").style.display = "none";
+        document.getElementById("portifoliobox6").style.display = "none";
+        document.getElementById("portifoliobox7").style.display = "flex";     
+    }
+}
+function callcomment(clicked) {
+    document.getElementById("leftcover").style = "border-color: transparent;";
+    document.getElementById("middlecover").style = "border-color: transparent;";
+    document.getElementById("rightcover").style = "border-color: transparent;";
+    document.getElementById(clicked.id).style = "border-color: white;";
+    if (clicked.id == "leftcover") {
+        document.getElementById("commenteraddress2").style.display = "none"
+        document.getElementById("commenteraddress3").style.display = "none"
+        document.getElementById("commenteraddress1").style.display = "flex"
+        document.getElementById("comment1").style.display = "flex"
+        document.getElementById("comment2").style.display = "none"
+        document.getElementById("comment3").style.display = "none"
+    } 
+    else if (clicked.id == "middlecover") {
+        document.getElementById("commenteraddress2").style.display = "flex"
+        document.getElementById("commenteraddress3").style.display = "none"
+        document.getElementById("commenteraddress1").style.display = "none"
+        document.getElementById("comment1").style.display = "none"
+        document.getElementById("comment2").style.display = "flex"
+        document.getElementById("comment3").style.display = "none"
+    } 
+    else {
+        document.getElementById("commenteraddress2").style.display = "none"
+        document.getElementById("commenteraddress3").style.display = "flex"
+        document.getElementById("commenteraddress1").style.display = "none"
+        document.getElementById("comment1").style.display = "none"
+        document.getElementById("comment2").style.display = "none"
+        document.getElementById("comment3").style.display = "flex"   
+    }
+}
