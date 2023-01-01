@@ -2,6 +2,7 @@ body{
     display:flex;
     justify-content:center;
     font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to left,rgb(85, 131, 184),rgb(99, 155, 190),rgb(85, 131, 184),rgb(99, 155, 190),rgb(85, 131, 184));
 }
 #background{
     background-color:#1D1E22;
@@ -31,6 +32,7 @@ input{
     justify-content:space-between;
 }
 #delete{
+    font-family: sans-serif;
     background-color:yellow;
     width:45px;
     font-size:36px;

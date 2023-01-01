@@ -14,13 +14,13 @@
 <body>
     <div id="background">
         <form action="">
-            <input type="text" id="input">
+            <input type="text" id="input" value="0">
         </form>
         <div id="deletion">
             <div id="delete" onclick="Delete()">
                 <i class="uil uil-cancel" style="margin-left:5px;"></i>
             </div>
-            <div id="clear"><div style="margin-top: 8px;" onclick="erase()">Clear</div></div>
+            <div id="clear"><div style="margin-top: 4px;" onclick="erase()">Clear</div></div>
         </div>
         <div id="numbers">
             <div class="num"><div class="insidenum" id="seven" onclick="entervalue(this)">7</div></div>
@@ -37,7 +37,7 @@
             <div class="num"><div class="insidenum" id="plus" onclick="entervalue(this)">+</div></div>
             <div class="num"><div class="insidenum" id="zero" onclick="entervalue(this)">0</div></div>
             <div class="num"><div class="insidenum" id="dot" onclick="entervalue(this)">.</div></div>
-            <div class="num"><div class="insidenum" id="equal" onclick="entervalue(this)">=</div></div>
+            <div class="num"><div class="insidenum" id="equal" onclick="calculate()">=</div></div>
             <div class="num"><div class="insidenum" id="minus" onclick="entervalue(this)">_</div></div>
         </div>
         <div class="cover"></div>

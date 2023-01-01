@@ -734,7 +734,8 @@ a{
 }
 #portifoliobox1{
     display: flex;
-    background-image: url("1.JPG");
+    background-image: url("calc.JPG");
+    background-position-y: top;
 }
 #portifoliobox2{
     display: flex;
