@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calcstyle.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="background">
+        <form action="">
+            <input type="text" id="input">
+        </form>
+        <div id="deletion">
+            <div id="delete" onclick="Delete()">
+                <i class="uil uil-cancel" style="margin-left:5px;"></i>
+            </div>
+            <div id="clear"><div style="margin-top: 8px;" onclick="erase()">Clear</div></div>
+        </div>
+        <div id="numbers">
+            <div class="num"><div class="insidenum" id="seven" onclick="entervalue(this)">7</div></div>
+            <div class="num"><div class="insidenum" id="eight" onclick="entervalue(this)">8</div></div>
+            <div class="num"><div class="insidenum" id="nine" onclick="entervalue(this)">9</div></div>
+            <div class="num"><div class="insidenum" id="division" onclick="entervalue(this)">/</div></div>
+            <div class="num"><div class="insidenum" id="four" onclick="entervalue(this)">4</div></div>
+            <div class="num"><div class="insidenum" id="five" onclick="entervalue(this)">5</div></div>
+            <div class="num"><div class="insidenum" id="six" onclick="entervalue(this)">6</div></div>
+            <div class="num"><div class="insidenum" id="times" onclick="entervalue(this)">X</div></div>
+            <div class="num"><div class="insidenum" id="one" onclick="entervalue(this)">1</div></div>
+            <div class="num"><div class="insidenum" id="two" onclick="entervalue(this)">2</div></div>
+            <div class="num"><div class="insidenum" id="three" onclick="entervalue(this)">3</div></div>
+            <div class="num"><div class="insidenum" id="plus" onclick="entervalue(this)">+</div></div>
+            <div class="num"><div class="insidenum" id="zero" onclick="entervalue(this)">0</div></div>
+            <div class="num"><div class="insidenum" id="dot" onclick="entervalue(this)">.</div></div>
+            <div class="num"><div class="insidenum" id="equal" onclick="entervalue(this)">=</div></div>
+            <div class="num"><div class="insidenum" id="minus" onclick="entervalue(this)">_</div></div>
+        </div>
+        <div class="cover"></div>
+    </div>
+    <p style="background-color: yellow;" id="p"></p>
+    <script src="calcscript.js"></script>
+</body>
+</html>

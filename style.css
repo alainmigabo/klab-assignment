@@ -765,6 +765,7 @@ a{
     margin-left: 10%;
     border-radius: 10px;
     padding-top: 16px;
+    cursor: pointer;
 }
 #hiddenpart1,#hiddenpart2,#hiddenpart3,#hiddenpart4,#hiddenpart6,#hiddenpart7{
     visibility: hidden;
@@ -1268,6 +1269,7 @@ form ::placeholder{
         background-size: cover;
         margin-top: 40px;
         border-radius: 20px;
+        margin-left: 4%;
     }
     .aboutright{
         border: none;
