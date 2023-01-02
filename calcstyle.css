@@ -1,5 +1,6 @@
 body{
     display:flex;
+    transform: translateY(50%);
     justify-content:center;
     font-family: 'Poppins', sans-serif;
     background: linear-gradient(to left,rgb(85, 131, 184),rgb(99, 155, 190),rgb(85, 131, 184),rgb(99, 155, 190),rgb(85, 131, 184));
