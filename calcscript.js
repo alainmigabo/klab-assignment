@@ -11,7 +11,7 @@ function entervalue(clicked){
         screen.value = document.getElementById(clicked.id).innerHTML;
         calculated = 0;
     }
-    else if (screen.value == 0 && clicked.id != "minus" && clicked.id != "dot" && clicked.id != "plus" && clicked.id != "times" && clicked.id != "division") {
+    else if (screen.value == "0" && clicked.id != "minus" && clicked.id != "dot" && clicked.id != "plus" && clicked.id != "times" && clicked.id != "division") {
         screen.value = document.getElementById(clicked.id).innerHTML;
     }
     else if (countdots > 0 && clicked.id == "dot") {
