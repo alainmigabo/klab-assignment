@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Schedule</title>
+    <link rel="stylesheet" href="todostyle.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+<body>
+    <header>
+        <h1>Today's Plans</h1>
+        <div class="input-container">
+            <input type="text" placeholder="What is your Today's schedule?" id="input">
+            <button id="add-task-button" onclick="addtask()">Add Task</button>
+        </div>
+    </header>
+    <main>
+        <h3>Tasks</h3>
+        <div id="tasks">
+        </div>
+    </main>
+    <script src="todoscript.js"></script>
+</body>
+</html>

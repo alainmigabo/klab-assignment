@@ -1,0 +1,84 @@
+body{
+    background-color: #7a7c82;
+    color: white;
+}
+h1,h3{
+    text-align: center;
+    color: #1d1d1f;
+}
+.input-container{
+    height: fit-content;
+    width: 80%;
+    margin-left: 10%;
+}
+.input-container input{
+    border: none;
+    height: 40px;
+    width: calc(100% - 116px);
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #2f3033;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: gray;
+}
+#add-task-button{
+    border: none;
+    width: 92px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: transparent;
+    color: rgb(2, 58, 44);
+    cursor: pointer;
+}
+.single-task .output-text{
+    border: none;
+    height: 40px;
+    width: calc(100% - 148px);   
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+}
+.single-task .output-edit{
+    border: none;
+    width: fit-content;
+    font-size: 18px;
+    background-color: transparent;
+    color: violet;
+    cursor: pointer;
+}
+.single-task .output-delete{
+    border: none;
+    font-size: 22px;
+    background-color: transparent;
+    color: rgb(245, 142, 142);
+    cursor: pointer;
+    margin-top: 8px;
+    margin-right: 8px;
+}
+.single-task .output-done{
+    border: none;
+    font-size: 18px;
+    background-color: transparent;
+    color: rgb(31, 145, 116);
+    cursor: pointer;
+}
+#tasks{
+    border: none;
+    height: fit-content;
+    width: 80%;
+    margin-left: 10%;
+}
+.single-task{
+    margin-top: 10px;
+    background-color: #2f3033;
+    border-radius: 10px;
+    display: flex;
+    gap: 4px;
+}
+.single-task .output-text:not(:read-only){
+    color: rgb(245, 142, 142);
+}
