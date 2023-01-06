@@ -740,21 +740,23 @@ a{
 #portifoliobox2{
     display: flex;
     background-image: url("todo.JPG");
+    background-position-y: top;
 }
 #portifoliobox3{
     display: flex;
-    background-image: url("3.JPG");
+    background-image: url("figma.JPG");
+    background-position-y: top;
 }
 #portifoliobox4{
-    display: flex;
+    display: none;
     background-image: url("4.JPG");
 }
 #portifoliobox6{
-    display: flex;
+    display: none;
     background-image: url("6.JPG");
 }
 #portifoliobox7{
-    display: flex;
+    display: none;
     background-image: url("7.JPG");
 }
 .hiddenpart{

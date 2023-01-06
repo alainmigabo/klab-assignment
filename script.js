@@ -52,6 +52,7 @@ function validateform(){
             document.getElementById("formname").style.border = "none";
             document.getElementById("formname").style.border = "2px solid rgb(115, 253, 216)";
             document.getElementById("nameerrormessage").style.visibility = "hidden";
+            return true;
         }
     }
     function validateemail(){
@@ -70,6 +71,7 @@ function validateform(){
             document.getElementById("formemail").style.border = "none";
             document.getElementById("formemail").style.border = "2px solid rgb(115, 253, 216)";
             document.getElementById("emailerrormessage").style.visibility = "hidden";
+            return true;
         }
     }
     function validatephone(){
@@ -88,6 +90,7 @@ function validateform(){
             document.getElementById("formphone").style.border = "none";
             document.getElementById("formphone").style.border = "2px solid rgb(115, 253, 216)";
             document.getElementById("phoneerrormessage").style.visibility = "hidden";
+            return true;
         }
     }
     function validatesubject(){
@@ -100,6 +103,7 @@ function validateform(){
             document.getElementById("formsubject").style.border = "none";
             document.getElementById("formsubject").style.border = "2px solid rgb(115, 253, 216)";
             document.getElementById("subjecterrormessage").style.visibility = "hidden";
+            return true;
         }
     }
     function validatemessage(){
@@ -118,6 +122,7 @@ function validateform(){
             document.getElementById("formmessage").style.border = "none";
             document.getElementById("formmessage").style.border = "2px solid rgb(115, 253, 216)";
             document.getElementById("messageerrormessage").style.visibility = "hidden";
+            return true;
         }
     }
     validatename();
@@ -125,6 +130,15 @@ function validateform(){
     validatephone();
     validatesubject();
     validatemessage();
+    if (validatename() && validateemail() && validatephone() && validatesubject() && validatemessage()) {
+        emailjs.send("service_hgvnudx","template_dz2lc7m",{
+            form_name: fname,
+            email_id: email,
+            Message: message
+        })
+        alert("Thanks for your message! It has been delivered to us successfully.")
+    }
+    
 }
 function activate(hovered){
     if (hovered.id == "portifoliobox1") {
@@ -171,13 +185,13 @@ function handleportifolioboxes(clicked) {
         document.getElementById("portifoliobox1").style.display = "flex";
         document.getElementById("portifoliobox2").style.display = "flex";
         document.getElementById("portifoliobox3").style.display = "flex";
-        document.getElementById("portifoliobox4").style.display = "flex";
-        document.getElementById("portifoliobox6").style.display = "flex";
-        document.getElementById("portifoliobox7").style.display = "flex";
+        document.getElementById("portifoliobox4").style.display = "none";
+        document.getElementById("portifoliobox6").style.display = "none";
+        document.getElementById("portifoliobox7").style.display = "none";
     } 
     else if (clicked.id == "youtube") {
         document.getElementById("portifoliobox1").style.display = "flex";
-        document.getElementById("portifoliobox2").style.display = "none";
+        document.getElementById("portifoliobox2").style.display = "flex";
         document.getElementById("portifoliobox3").style.display = "none";
         document.getElementById("portifoliobox4").style.display = "none";
         document.getElementById("portifoliobox6").style.display = "none";
@@ -185,8 +199,8 @@ function handleportifolioboxes(clicked) {
     }
     else if (clicked.id == "vimeo") {
         document.getElementById("portifoliobox1").style.display = "none";
-        document.getElementById("portifoliobox2").style.display = "flex";
-        document.getElementById("portifoliobox3").style.display = "none";
+        document.getElementById("portifoliobox2").style.display = "none";
+        document.getElementById("portifoliobox3").style.display = "flex";
         document.getElementById("portifoliobox4").style.display = "none";
         document.getElementById("portifoliobox6").style.display = "none";
         document.getElementById("portifoliobox7").style.display = "none";
@@ -194,7 +208,7 @@ function handleportifolioboxes(clicked) {
     else if (clicked.id == "soundcloud") {
         document.getElementById("portifoliobox1").style.display = "none";
         document.getElementById("portifoliobox2").style.display = "none";
-        document.getElementById("portifoliobox3").style.display = "flex";
+        document.getElementById("portifoliobox3").style.display = "none";
         document.getElementById("portifoliobox4").style.display = "none";
         document.getElementById("portifoliobox6").style.display = "none";
         document.getElementById("portifoliobox7").style.display = "none";
@@ -203,8 +217,8 @@ function handleportifolioboxes(clicked) {
         document.getElementById("portifoliobox1").style.display = "none";
         document.getElementById("portifoliobox2").style.display = "none";
         document.getElementById("portifoliobox3").style.display = "none";
-        document.getElementById("portifoliobox4").style.display = "flex";
-        document.getElementById("portifoliobox6").style.display = "flex";
+        document.getElementById("portifoliobox4").style.display = "none";
+        document.getElementById("portifoliobox6").style.display = "none";
         document.getElementById("portifoliobox7").style.display = "none";
     }
     else {
@@ -213,7 +227,7 @@ function handleportifolioboxes(clicked) {
         document.getElementById("portifoliobox3").style.display = "none";
         document.getElementById("portifoliobox4").style.display = "none";
         document.getElementById("portifoliobox6").style.display = "none";
-        document.getElementById("portifoliobox7").style.display = "flex";     
+        document.getElementById("portifoliobox7").style.display = "none";     
     }
 }
 function callcomment(clicked) {
