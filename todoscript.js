@@ -84,7 +84,6 @@ function addtask() {
         }
     })
     delete_output.addEventListener("click", (event)=>{
-        id-=1;
         localStorage.removeItem(event.srcElement.id);
         tasklist.removeChild(task);
     })

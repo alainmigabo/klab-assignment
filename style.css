@@ -1119,7 +1119,7 @@ form ::placeholder{
     text-align: center;
     color: rgb(189, 187, 187);
 }
-@media (max-width:600px){
+@media (max-width:390px){
     html{
         align-items: center;
     }
